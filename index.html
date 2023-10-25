@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- 
+    File Name: index.html
+    Description: This HTML file is part of an interactive learning application that allows users
+                 to form sentences by dragging and dropping words. It includes multiple sections 
+                 for different sentences and a reset option to start over.
+    Author: David Ortega
+    Created: 2023-18-22
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Drag and Drop Words</title>
+    <script src="app.js"></script>
+</head>
+<body>
+    <article class="rectangle">
+        <p>Welcome to EasyLearn</p>
+    </article>
+    <section id="word-container">
+        <div class="word" draggable="true">llamo</div>
+        <div class="word" draggable="true">Hola</div>
+        <div class="word" draggable="true">me</div>
+        <div class="word" draggable="true">.</div>
+    </section>
+    <div id="sentence-container">
+    </div>
+    <p id="result"></p>
+    <div id="user-input-container">
+        <h2>Como te llamas?</h2>
+        <input type="text" id="user-input" placeholder="Enter text here">
+        <button>Click</button>
+        <button id = 'reset'>Reset</button>
+       
+    </div>
+
+    <!-- //################################## -->
+
+    <section id="word-container2">
+        <div class="word" draggable="true">es</div>
+        <div class="word" draggable="true">favorito</div>
+        <div class="word" draggable="true">Mi</div>
+        <div class="word" draggable="true">el</div>
+        <div class="word" draggable="true">.</div>
+        <div class="word" draggable="true">color</div>
+    </section>
+    <div id="sentence-container2">
+    </div>
+    <p id="result2"></p>
+    <div id = 'user-input-container2'>
+        <h2>Cual es tu color favorito?</h2>
+        <input type="text" id="color-input" placeholder="Enter text here">
+        <button>Click</button>
+        <button id = 'reset2'>Reset</button>
+    </div>
+    <div id="completed-sentences"></div>
+
+    <!-- ////////// -->
+    <section id="word-container3">
+        <div class="word" draggable="true">equipo</div>
+        <div class="word" draggable="true">favorito</div>
+        <div class="word" draggable="true">Mi</div>
+        <div class="word" draggable="true">son</div>
+        <div class="word" draggable="true">.</div>
+        <div class="word" draggable="true">los</div>
+    </section>
+    <div id="sentence-container3">
+    </div>
+    <p id="result3"></p>
+    <div id = 'user-input-container3'>
+        <h2>Cual es tu equipo favorito?</h2>
+        <input type="text" id="sport-input" placeholder="Enter text here">
+        <button>Click</button>
+        <button id = 'reset3'>Reset</button>
+    </div>
+    <div id="completed-sentences "></div>
+
+      <!-- ////////// -->
+
+      <section id="word-container4">
+        <div class="word" draggable="true">mucho</div>
+        <div class="word" draggable="true">gusta</div>
+        <div class="word" draggable="true">mi</div>
+        <div class="word" draggable="true">me</div>
+        <div class="word" draggable="true">jugar</div>
+        <div class="word" draggable="true">al</div>
+        <div class="word" draggable="true">.</div>
+        <div class="word" draggable="true">A</div>
+      </section>
+    <div id="sentence-container4">
+    </div>
+    <p id="result4"></p>
+    <div id = 'user-input-container4'>
+        <h2>Que te gusta jugar?</h2>
+        <input type="text" id="sportPractice-input" placeholder="Enter text here">
+        <button>Click</button>
+        <button id = 'reset4'>Reset</button>
+    </div>
+    <div id="completed-sentences"></div>
+    
+    <div>
+        <button id="collect-button">Collect Text</button>
+
+    </div> 
+
+    <div id ="final-container">
+        <p> all this sentences should be displaying here.</p>
+    </div>
+
+
+
+</body>
+</html>

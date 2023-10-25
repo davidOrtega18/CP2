@@ -1,0 +1,110 @@
+/* 
+    Project: Interactive Learning Application
+    Description: CSS styles for a drag-and-drop interactive
+                 learning application.
+    Author: David Ortega
+    Creation Date: 2023-18-23
+*/
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#word-container {
+    display: flex;
+}
+
+#word-container2 {
+    display: flex;
+}
+
+#word-container3 {
+    display: flex;
+}
+#word-container4 {
+    display: flex;
+}
+
+.word {
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+
+#sentence-container {
+    border: 2px dashed #ccc;
+    padding: 10px;
+    min-height: 50px;
+}
+
+#sentence-container2 {
+    border: 2px dashed #ccc;
+    padding: 10px;
+    min-height: 50px;
+}
+
+#sentence-container3 {
+    border: 2px dashed #ccc;
+    padding: 10px;
+    min-height: 50px;
+}
+
+#sentence-container4 {
+    border: 2px dashed #ccc;
+    padding: 10px;
+    min-height: 50px;
+}
+
+#final-container {
+    border: 2px dashed #ccc;
+    padding: 10px;
+    min-height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#result {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#result2 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#result3 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+#result4{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+.rectangle {
+    width: 100%; 
+    height: 100px; 
+    background-color: #3498db; 
+    color: #fff; 
+    text-align: center; 
+    line-height: 100px; 
+    font-size: 28px; 
+  }
+
+  
+  #draggable-box{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    cursor: move;
+
+  }
+
+  .hide{
+    display: none;
+  }
